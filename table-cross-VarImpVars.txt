@@ -1,0 +1,37 @@
+\begin{tabular}{rcccc}
+\hline 
+\multicolumn{5}{c}{Performance metrics -- F1 score} \\ \hline 
+Model  & X & DD & DDD & DD+DDD \\ \hline 
+CT  &.214 $\pm$ .069  &.211 $\pm$ .065  &.219 $\pm$ .070  &\bf{.219 $\pm$ .070  }\\ 
+KN  &\bf{.195 $\pm$ .108  }&.188 $\pm$ .103  &.190 $\pm$ .106  &.189 $\pm$ .104  \\ 
+LR  &.217 $\pm$ .121  &.217 $\pm$ .119  &\bf{.219 $\pm$ .118  }&.218 $\pm$ .115  \\ 
+NB  &.306 $\pm$ .019  &.306 $\pm$ .019  &.309 $\pm$ .021  &\bf{.309 $\pm$ .022  }\\ 
+RF  &.203 $\pm$ .104  &.203 $\pm$ .102  &.203 $\pm$ .102  &\bf{.205 $\pm$ .100  }\\ 
+\hline 
+\bf{all}&.227 $\pm$ .097  &.225 $\pm$ .095  &.228 $\pm$ .096  &\bf{.228 $\pm$ .095  }\\ 
+\hline 
+\end{tabular}\begin{tabular}{rcccc}
+\hline 
+\multicolumn{5}{c}{Performance metrics -- ROC-AUC} \\ \hline 
+Model  & X & DD & DDD & DD+DDD \\ \hline 
+CT  &.613 $\pm$ .057  &\bf{.626 $\pm$ .054  }&.621 $\pm$ .052  &.621 $\pm$ .052  \\ 
+KN  &.653 $\pm$ .032  &\bf{.655 $\pm$ .037  }&.652 $\pm$ .031  &.655 $\pm$ .040  \\ 
+LR  &\bf{.677 $\pm$ .065  }&.673 $\pm$ .064  &.673 $\pm$ .063  &.675 $\pm$ .062  \\ 
+NB  &.710 $\pm$ .013  &.711 $\pm$ .014  &.713 $\pm$ .012  &\bf{.714 $\pm$ .014  }\\ 
+RF  &.682 $\pm$ .027  &.680 $\pm$ .031  &.682 $\pm$ .027  &\bf{.683 $\pm$ .028  }\\ 
+\hline 
+\bf{all}&.667 $\pm$ .053  &.669 $\pm$ .050  &.668 $\pm$ .050  &\bf{.669 $\pm$ .051  }\\ 
+\hline 
+\end{tabular}\begin{tabular}{rcccc}
+\hline 
+\multicolumn{5}{c}{Performance metrics -- Matthew's Correlation Coefficient} \\ \hline 
+Model  & X & DD & DDD & DD+DDD \\ \hline 
+CT  &.157 $\pm$ .053  &.148 $\pm$ .051  &\bf{.157 $\pm$ .053  }&.150 $\pm$ .057  \\ 
+KN  &.147 $\pm$ .070  &.140 $\pm$ .063  &\bf{.147 $\pm$ .070  }&.141 $\pm$ .064  \\ 
+LR  &.164 $\pm$ .075  &.162 $\pm$ .076  &\bf{.164 $\pm$ .075  }&.164 $\pm$ .071  \\ 
+NB  &.198 $\pm$ .018  &.198 $\pm$ .017  &.198 $\pm$ .018  &\bf{.201 $\pm$ .019  }\\ 
+RF  &.154 $\pm$ .061  &.158 $\pm$ .056  &.154 $\pm$ .061  &\bf{.160 $\pm$ .054  }\\ 
+\hline 
+\bf{all}&.164 $\pm$ .059  &.161 $\pm$ .057  &\bf{.164 $\pm$ .059  }&.163 $\pm$ .057  \\ 
+\hline 
+\end{tabular}
